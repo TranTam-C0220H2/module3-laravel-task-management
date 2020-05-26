@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80495dfe-3779-421d-b7da-8a534ce250d7" name="Default Changelist" comment="" />
+    <list default="true" id="80495dfe-3779-421d-b7da-8a534ce250d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Repositories/TaskRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Services/TaskService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/modules/task/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CCustomer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +23,16 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -111,6 +132,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1cF5mmmFNicV6TTKi5rKlUg6De2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -118,8 +140,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -128,9 +152,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/sass" />
       <recent name="$PROJECT_DIR$/resources/views/modules" />
       <recent name="$PROJECT_DIR$/resources/views/modules/customer" />
       <recent name="$PROJECT_DIR$/resources/views/modules/customer/edit" />
@@ -160,7 +186,9 @@
       <workItem from="1590205825800" duration="3237000" />
       <workItem from="1590332648457" duration="1416000" />
       <workItem from="1590375106354" duration="342000" />
-      <workItem from="1590375832402" duration="817000" />
+      <workItem from="1590375832402" duration="2195000" />
+      <workItem from="1590380955355" duration="197000" />
+      <workItem from="1590467279098" duration="4027000" />
     </task>
     <servers />
   </component>
@@ -176,13 +204,21 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="467" y="258" width="488" height="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1299.741@67.27.1299.741" timestamp="1590112074733" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590375446848">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590381151248">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1590375446848" />
-    <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1590121349846">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1590381151248" />
+    <state x="371" y="210" width="681" height="373" key="NewPhpClassDialog" timestamp="1590471414709">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1590121349846" />
+    <state x="371" y="210" width="681" height="373" key="NewPhpClassDialog/67.27.1299.741@67.27.1299.741" timestamp="1590471414709" />
+    <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1590471278030">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1590471278030" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1590470454720">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1590470454720" />
   </component>
 </project>
